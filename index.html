@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj ASCII</title>
+    <style>
+        body {
+            background-color: black;
+            color: limegreen;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #clock {
+            font-size: 32px;
+            line-height: 1.2;
+            white-space: pre;
+        }
+    </style>
+</head>
+<body>
+    <div id="clock"></div>
+
+    <script>
+        function getAsciiTime() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            
+            return `
+  _${hours[0]}_   _${hours[1]}_   :   _${minutes[0]}_   _${minutes[1]}_   :   _${seconds[0]}_   _${seconds[1]}_
+ | |   | |       | |   | |       | |   | |   | |
+ |_|   |_|       |_|   |_|       |_|   |_|   |_| `;
+        }
+
+        function updateClock() {
+            document.getElementById('clock').textContent = getAsciiTime();
+        }
+
+        setInterval(updateClock, 1000);
+        updateClock();  // Llama la función una vez al cargar la página
+    </script>
+</body>
+</html>
