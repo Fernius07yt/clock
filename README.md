@@ -1,10 +1,10 @@
-# Reloj ASCII en Tiempo Real
+# Reloj digital en Tiempo Real
 
-Este es un proyecto simple que muestra un reloj digital en estilo **ASCII**, que se actualiza en tiempo real. La página web tiene un fondo negro y un estilo retro, inspirado en las primeras computadoras. El reloj se actualiza automáticamente cada segundo y muestra la hora actual.
+Este es un proyecto simple que muestra un **reloj digital** en estilo consola, que se actualiza en tiempo real. La página web tiene un fondo negro y un estilo retro, inspirado en las primeras computadoras. El reloj se actualiza automáticamente cada segundo y muestra la hora actual.
 
 ## Características
 
-- **Estilo retro**: Reloj digital en ASCII, con fuente de estilo consola.
+- **Estilo retro**: Reloj digital, con fuente de estilo consola.
 - **Actualización automática**: El reloj muestra la hora en tiempo real y se actualiza cada segundo.
 - **Diseño minimalista**: Fondo negro y texto verde lima para una estética de consola clásica.
 
@@ -30,7 +30,7 @@ Este es un proyecto simple que muestra un reloj digital en estilo **ASCII**, que
 
 ## Uso
 
-Al abrir el archivo `index.html` en un navegador, verás un reloj digital en el centro de la pantalla, que muestra la hora actual en formato ASCII.
+Al abrir el archivo `index.html` en un navegador, verás un reloj digital en el centro de la pantalla, que muestra la hora actual en formato consola.
 
 ## Personalización
 
