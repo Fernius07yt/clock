@@ -41,7 +41,7 @@ Si deseas modificar el estilo o el diseño del reloj, puedes editar el archivo `
 
 ## Captura de Pantalla
 
-![image](https://github.com/user-attachments/assets/54eea4a5-07fc-40ac-804e-e99bde549f94)
+![Grabación-2024-09-18-200748](https://github.com/user-attachments/assets/05e32f9e-1b6e-45e0-bd92-0935136c2b34)
 
 
 ## Contribuciones
