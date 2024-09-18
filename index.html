@@ -34,9 +34,7 @@
             const seconds = String(now.getSeconds()).padStart(2, '0');
             
             return `
-  _${hours[0]}_   _${hours[1]}_   :   _${minutes[0]}_   _${minutes[1]}_   :   _${seconds[0]}_   _${seconds[1]}_
- | |   | |       | |   | |       | |   | |   | |
- |_|   |_|       |_|   |_|       |_|   |_|   |_| `;
+  ${hours[0]}   ${hours[1]}   :   ${minutes[0]}   ${minutes[1]}   :   ${seconds[0]}   ${seconds[1]};
         }
 
         function updateClock() {
